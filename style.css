@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather:ital,wght@0,300;1,300&family=Quicksand&display=swap");
+
+.body {
+  background-color: #fdfdfc;
+}
+.container2 {
+  margin-left: 200px;
+}
+.weather h1 {
+  color: white;
+}
+.navbar {
+  background-color: #fdfdfc;
+
+  background: linear-gradient(183deg, #fdfdfc 0%, #fdfdfc 100%);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.153);
+}
+.navbar .links {
+  color: rgb(24, 22, 22);
+  font-family: "Quicksand", sans-serif;
+}
+.navbar .weather1 {
+  font-family: "Merriweather", serif;
+  font-style: italic;
+  color: rgb(47, 45, 44);
+}
+.card .card1 {
+  /* border: 2px solid red; */
+  background-color: #302d7d;
+}
+.card-body {
+  /* border: 2px solid red; */
+  background-color: #302d7d;
+}
+.pricing-header h1 {
+  color: black;
+}
+.card-body li {
+  color: white;
+}
+.card h1 {
+  color: white;
+}
+#cityname {
+  color: black;
+}
+#col2 {
+  margin-left: 15%;
+}
+#col1 {
+  margin-left: 9%;
+}
+.card1 {
+  background: rgb(83, 83, 241);
+  background: linear-gradient(
+    180deg,
+    rgba(83, 83, 241, 1) 0%,
+    rgba(39, 36, 117, 1) 40%,
+    rgba(39, 36, 117, 1) 100%
+  );
+}
+
+
+
+@media (max-width: 426px) {
+      .container2 {
+        margin: 10%;
+      }
+      .weather h1 {
+        color: white;
+      }
+      .navbar {
+        background-color: #fdfdfc;
+      
+        background: linear-gradient(183deg, #fdfdfc 0%, #fdfdfc 100%);
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.153);
+      }
+      .navbar .links {
+        color: rgb(24, 22, 22);
+        font-family: "Quicksand", sans-serif;
+      }
+      .navbar .weather1 {
+        font-family: "Merriweather", serif;
+        font-style: italic;
+        color: rgb(47, 45, 44);
+      }
+      .card .card1 {
+        /* border: 2px solid red; */
+        background-color: #302d7d;
+      }
+      .card-body {
+        /* border: 2px solid red; */
+        background-color: #302d7d;
+      }
+      .pricing-header h1 {
+        color: black;
+      }
+      .card-body li {
+        color: white;
+      }
+      .card h1 {
+        color: white;
+      }
+      #cityname {
+        color: black;
+      }
+      #col2 {
+        margin-left: 0%;
+      }
+      #col1 {
+        margin-left: 0%;
+      }
+      .card1 {
+        background: rgb(83, 83, 241);
+        background: linear-gradient(
+          180deg,
+          rgba(83, 83, 241, 1) 0%,
+          rgba(39, 36, 117, 1) 40%,
+          rgba(39, 36, 117, 1) 100%
+        );
+      }
+}

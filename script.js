@@ -7,7 +7,7 @@ const options = {
 };
 const getwheather = (inputValue) => {
   const url ="https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=" + inputValue;
-  cityname.innerHTML = inputValue;
+    cityname.innerHTML = inputValue;
 
   async function fetchData() {
     try {
@@ -46,4 +46,4 @@ button.addEventListener("click", (e) => {
 function capitalizeFirstLetter(text) {
   return text.charAt(0).toUpperCase() + text.slice(1);
 }
-// getwheather("Mumbai");
+getwheather("Mumbai");

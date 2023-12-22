@@ -11,7 +11,6 @@
 }
 .navbar {
   background-color: #fdfdfc;
-
   background: linear-gradient(183deg, #fdfdfc 0%, #fdfdfc 100%);
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.153);
 }
@@ -44,12 +43,6 @@
 #cityname {
   color: black;
 }
-#col2 {
-  margin-left: 15%;
-}
-#col1 {
-  margin-left: 9%;
-}
 .card1 {
   background: rgb(83, 83, 241);
   background: linear-gradient(
@@ -59,7 +52,6 @@
     rgba(39, 36, 117, 1) 100%
   );
 }
-
 
 
 @media (max-width: 426px) {
@@ -119,4 +111,8 @@
           rgba(39, 36, 117, 1) 100%
         );
       }
+      #col3{
+        margin-left: 0px;
+        }
 }
+  
